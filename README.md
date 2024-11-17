@@ -8,12 +8,19 @@ To implement Principal Component Analysis (PCA) to reduce the dimensionality of 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Data Loading
-2. Data Exploration
-3. Data Preprocessing (Feature Scaling)
-4. Applying PCA for Dimensionality Reduction
-5. Explained Variance Analysis
-6. Visualization of Principal Components
+#### 1. Data Loading
+- Load the dataset into a DataFrame from a CSV file.
+#### 2. Data Exploration
+- View the first few rows and check column names to ensure correct data loading.
+#### 3. Data Preprocessing (Feature Scaling)
+- Standardize the features (height and weight) to normalize them for PCA.
+#### 4. Applying PCA for Dimensionality Reduction
+- Reduce the dataset to 2 principal components to capture most of the variance.
+#### 5. Explained Variance Analysis
+- Calculate the explained variance ratio to understand how much variance is captured by each principal component.
+#### 6. Visualization of Principal Components
+- Plot the reduced dataset (principal components) to visualize the distribution and structure.
+
 
 ## Program:
 ```
